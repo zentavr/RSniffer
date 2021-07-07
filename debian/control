@@ -1,0 +1,16 @@
+Source: rsniffer
+Build-Depends: debhelper (>= 9), make, dpkg-dev (>= 1.15.7), libpcap-dev
+Section: utils
+Priority: optional
+Maintainer: Andrii Miroshnychenko <zentavr@trafford.com.ua>
+Standards-Version: 3.9.5
+Homepage: https://github.com/vponomarev/RSniffer
+
+Package: rsniffer
+Priority: optional
+Architecture: any
+Depends: ${shlibs:Depends}, ${perl:Depends}, ${misc:Depends}
+Description: PCAP stream forwarder
+ RSniffer is a small tool, that allows to send pcap stream to remote host for futher analysis.
+ Main idea is to analyze traffic of the linux server using GUI Wireshark on desktop PC.
+ Optionally you can collect the traffic of several servers into dedicated trace server.

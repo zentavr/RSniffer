@@ -1,0 +1,5 @@
+rsniffer (3.0.1) UNRELEASED; urgency=medium
+
+  * Building the code from https://github.com/mpeylo/cmpossl
+
+ -- Andrii Miroshnychenko <zentavr@trafford.com.ua>  Thu, 08 Jul 2021 01:21:00 +0000
